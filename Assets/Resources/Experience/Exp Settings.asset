@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fbc22a84bd4ecf4e8b52b583ef4f3b8, type: 3}
+  m_Name: Exp Settings
+  m_EditorClassIdentifier: 
+  expLevelSettings:
+  - level: 0
+    startAmount: 0
+    maxHP: 100
+    damageBuff: 1
+  - level: 0
+    startAmount: 50
+    maxHP: 120
+    damageBuff: 1.25
+  - level: 0
+    startAmount: 150
+    maxHP: 150
+    damageBuff: 1.5
+  - level: 0
+    startAmount: 300
+    maxHP: 200
+    damageBuff: 1.75
+  - level: 0
+    startAmount: 500
+    maxHP: 250
+    damageBuff: 2
+  - level: 0
+    startAmount: 750
+    maxHP: 300
+    damageBuff: 2.25
+  - level: 0
+    startAmount: 1000
+    maxHP: 300
+    damageBuff: 2.5
+  - level: 0
+    startAmount: 1300
+    maxHP: 350
+    damageBuff: 3
+  - level: 0
+    startAmount: 1600
+    maxHP: 400
+    damageBuff: 3.25
+  - level: 0
+    startAmount: 2000
+    maxHP: 500
+    damageBuff: 3.75
+  - level: 0
+    startAmount: 2500
+    maxHP: 550
+    damageBuff: 4
+  - level: 0
+    startAmount: 3250
+    maxHP: 600
+    damageBuff: 4.25
+  - level: 0
+    startAmount: 4000
+    maxHP: 650
+    damageBuff: 4.5
+  - level: 0
+    startAmount: 4750
+    maxHP: 700
+    damageBuff: 4.75
+  - level: 0
+    startAmount: 5000
+    maxHP: 800
+    damageBuff: 6
+  - level: 0
+    startAmount: 6000
+    maxHP: 850
+    damageBuff: 6.5
+  - level: 0
+    startAmount: 7000
+    maxHP: 900
+    damageBuff: 7
+  - level: 0
+    startAmount: 8000
+    maxHP: 950
+    damageBuff: 7.5
+  - level: 0
+    startAmount: 9000
+    maxHP: 1000
+    damageBuff: 8
+  - level: 0
+    startAmount: 10000
+    maxHP: 1200
+    damageBuff: 10

@@ -1,0 +1,351 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ExpCfg
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 6fbc22a84bd4ecf4e8b52b583ef4f3b8,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.size
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[0].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[0].startAmount
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[0].maxHP
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[0].damageBuff
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[1].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[1].startAmount
+    value: 50
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[1].maxHP
+    value: 120
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[1].damageBuff
+    value: 1.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[2].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[2].startAmount
+    value: 150
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[2].maxHP
+    value: 150
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[2].damageBuff
+    value: 1.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[3].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[3].startAmount
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[3].maxHP
+    value: 200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[3].damageBuff
+    value: 1.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[4].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[4].startAmount
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[4].maxHP
+    value: 250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[4].damageBuff
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[5].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[5].startAmount
+    value: 750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[5].maxHP
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[5].damageBuff
+    value: 2.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[6].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[6].startAmount
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[6].maxHP
+    value: 300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[6].damageBuff
+    value: 2.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[7].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[7].startAmount
+    value: 1300
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[7].maxHP
+    value: 350
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[7].damageBuff
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[8].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[8].startAmount
+    value: 1600
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[8].maxHP
+    value: 400
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[8].damageBuff
+    value: 3.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[9].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[9].startAmount
+    value: 2000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[9].maxHP
+    value: 500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[9].damageBuff
+    value: 3.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[10].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[10].startAmount
+    value: 2500
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[10].maxHP
+    value: 550
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[10].damageBuff
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[11].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[11].startAmount
+    value: 3250
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[11].maxHP
+    value: 600
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[11].damageBuff
+    value: 4.25
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[12].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[12].startAmount
+    value: 4000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[12].maxHP
+    value: 650
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[12].damageBuff
+    value: 4.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[13].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[13].startAmount
+    value: 4750
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[13].maxHP
+    value: 700
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[13].damageBuff
+    value: 4.75
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[14].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[14].startAmount
+    value: 5000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[14].maxHP
+    value: 800
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[14].damageBuff
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[15].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[15].startAmount
+    value: 6000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[15].maxHP
+    value: 850
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[15].damageBuff
+    value: 6.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[16].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[16].startAmount
+    value: 7000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[16].maxHP
+    value: 900
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[16].damageBuff
+    value: 7
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[17].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[17].startAmount
+    value: 8000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[17].maxHP
+    value: 950
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[17].damageBuff
+    value: 7.5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[18].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[18].startAmount
+    value: 9000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[18].maxHP
+    value: 1000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[18].damageBuff
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[19].level
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[19].startAmount
+    value: 10000
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[19].maxHP
+    value: 1200
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: expLevelSettings.Array.data[19].damageBuff
+    value: 10
+    objectReference: {fileID: 0}
