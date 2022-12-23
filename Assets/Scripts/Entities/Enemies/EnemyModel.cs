@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.Events;
-
 public class EnemyModel : GridEntity, IHitable
 {
     public UnityEvent onDieEvents;
@@ -14,15 +13,12 @@ public class EnemyModel : GridEntity, IHitable
     public int expReward;
     public int expLevel;
     public int coinsReward;
-
-    View _view;
-    Rigidbody _rb;
-    AttackArea _attackArea;
-    Collider _collider;
-    EnemyState _state;
-
+    private View _view;
+    private Rigidbody _rb;
+    private AttackArea _attackArea;
+    private Collider _collider;
+    private EnemyState _state;
     public Action<GameObject> onDie;
-
     protected override void Awake()
     {
         base.Awake();
@@ -35,15 +31,12 @@ public class EnemyModel : GridEntity, IHitable
     protected override void Start()
     {
         base.Start();
-
         _hp = maxHp;
-
-        _attackArea.onEnemyDead = (x,c) =>
+        _attackArea.onEnemyDead = (x, c) =>
         {
             _state.target = null;
             _state.alerted = false;
         };
-
         HealthBarsHandler.Instance.SubscribeHPListener(transform, 0, maxHp, () => _hp);
     }
     public override void Move(Vector3 dir)
@@ -76,7 +69,6 @@ public class EnemyModel : GridEntity, IHitable
         _hp -= damage;
         _state.target = source.transform;
         _state.alerted = true;
-
         if (_hp <= 0)
         {
             expReward = this.expReward;
@@ -89,12 +81,10 @@ public class EnemyModel : GridEntity, IHitable
             onDieEvents?.Invoke();
             return true;
         }
-
         expReward = 0;
         coinsReward = 0;
         return false;
     }
-
     public void TriggerHit()
     {
         _attackArea.TriggerHit(meleeDamage);

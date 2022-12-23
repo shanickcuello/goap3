@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
 public class AStarState<Node>
 {
     public HashSet<Node> open;
@@ -12,7 +11,6 @@ public class AStarState<Node>
     public Dictionary<Node, Node> previous;
     public Node current;
     public bool finished;
-
     public AStarState()
     {
         open = new HashSet<Node>();
@@ -20,10 +18,9 @@ public class AStarState<Node>
         gs = new Dictionary<Node, float>();
         fs = new Dictionary<Node, float>();
         previous = new Dictionary<Node, Node>();
-        current = default(Node);
+        current = default;
         finished = false;
     }
-
     public AStarState(AStarState<Node> copy)
     {
         open = new HashSet<Node>(copy.open);
@@ -34,10 +31,8 @@ public class AStarState<Node>
         current = copy.current;
         finished = copy.finished;
     }
-
     public AStarState<Node> Clone()
     {
         return new AStarState<Node>(this);
     }
 }
-

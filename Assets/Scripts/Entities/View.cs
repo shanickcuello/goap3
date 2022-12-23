@@ -1,23 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class View : MonoBehaviour
 {
     protected Animator _animator;
-    [Header("Animator Parameters")]
-    [SerializeField] protected string floatSpeedAnim;
+    [Header("Animator Parameters")] [SerializeField]
+    protected string floatSpeedAnim;
     [SerializeField] protected string intLightAttack;
     [SerializeField] protected string intSpecialAttack;
     [SerializeField] protected string triggerLightAttack;
     [SerializeField] protected string triggerSpecialAttack;
     [SerializeField] protected string triggerDie;
-
     protected virtual void Awake()
     {
         _animator = GetComponent<Animator>();
     }
-
     public void SetAnimSpeed(float speed)
     {
         _animator.SetFloat(floatSpeedAnim, speed);
