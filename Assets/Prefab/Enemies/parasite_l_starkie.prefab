@@ -1700,7 +1700,7 @@ Transform:
   m_GameObject: {fileID: 7155993460042119162}
   m_LocalRotation: {x: -0, y: -0.3826837, z: -0, w: 0.9238795}
   m_LocalPosition: {x: 5.27, y: 0, z: -3.24}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 3193139758212717193}
   - {fileID: 2423831709524904997}
@@ -2336,6 +2336,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
